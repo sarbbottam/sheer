@@ -9,3 +9,17 @@
 
 @import 'modules/grid-core.css';
 @import 'modules/grid.css';
+
+@import 'modules/input-field.css';
+@import 'modules/button.css';
+@import 'modules/drop-down.css';
+
+@import 'modules/link.css';
+
+/*
+ * order matters; granular rules overrides predefined rules,
+ * thus granular rules need to be loaded at the last
+*/
+@import 'modules/color.css';
+@import 'modules/text.css';
+@import 'modules/granular.css';

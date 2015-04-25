@@ -1,0 +1,63 @@
+/* atom */
+.clipped {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px !important;
+  overflow: hidden;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.v-a-m {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.at-end {
+  right: 0;
+}
+
+/* height */
+.h-a {
+  height: auto;
+}
+
+/* width */
+.w-a {
+  width: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* position */
+.p-a {
+  position: absolute;
+}
+
+.p-f {
+  position: fixed;
+}
+
+.p-r {
+  position: relative;
+}
+
+/* alignment */
+.t-a-c {
+  text-align: center;
+}

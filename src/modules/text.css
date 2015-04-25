@@ -1,0 +1,16 @@
+/* the most used text size should be set to the body font size */
+.text-xl {
+  font-size: var(--text-xl-font-size);
+}
+
+.text-lg {
+  font-size: var(--text-lg-font-size);
+}
+
+.text-md {
+  font-size: var(--text-md-font-size);
+}
+
+.text-sm {
+  font-size: var(--text-sm-font-size);
+}

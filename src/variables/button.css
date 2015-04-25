@@ -1,0 +1,44 @@
+:root {
+  --button-border-radius: var(--default-border-radius);
+  --button-font-size: 18px;
+  --button-height: 44px;
+  --button-padding: 24px;
+
+  --button-primary-enabled-font-color: #fff;
+  --button-primary-enabled-background-color: #400090;
+  --button-primary-enabled-border: 1px solid #400090;
+
+  --button-primary-active-font-color: #fff;
+  --button-primary-active-background-color: #1d033f;
+  --button-primary-active-border: 1px solid #1d033f;
+
+  --button-primary-disabled-font-color: #fff;
+  --button-primary-disabled-background-color: #9387c4;
+  --button-primary-disabled-border: 1px solid #9387c4;
+
+  --button-secondary-enabled-font-color: #198fff;
+  --button-secondary-enabled-background-color: #fff;
+  --button-secondary-enabled-border: 1px solid #95d3f9;
+
+  --button-secondary-active-font-color: #198fff;
+  --button-secondary-active-background-color: #fff;
+  --button-secondary-active-border: 1px solid #198fff;
+
+  --button-secondary-disabled-font-color: #a2a2a2;
+  --button-secondary-disabled-background-color: #fff;
+  --button-secondary-disabled-border: 1px solid #e1e1e1;
+
+  --button-cancel-enabled-font-color: #42597a;
+  --button-cancel-enabled-background-color: #eeeef5;
+  --button-cancel-enabled-border: 1px solid #e4e7ef;
+
+  --button-cancel-active-font-color: #42597a;
+  --button-cancel-active-background-color: #dddde8;
+  --button-cancel-active-border: 1px solid #d3d6dd;
+
+  --button-cancel-disabled-font-color: #8494a0;
+  --button-cancel-disabled-background-color: #f6f6fa;
+  --button-cancel-disabled-border: 1px solid #edeff4;
+
+  --button-link-font-color: var(--default-link-font-color);
+}
