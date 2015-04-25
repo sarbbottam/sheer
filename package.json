@@ -1,0 +1,14 @@
+{
+  "name": "sheer",
+  "version": "0.0.1",
+  "description": "customizable and extendable CSS framework",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sarbbottam/sheer.git"
+  },
+  "keywords": [
+    "sheer, customizable, extendable, css framework"
+  ],
+  "author": "Sarbbottam Bandyopadhyay",
+  "license": "MIT"
+}
