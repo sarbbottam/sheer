@@ -16,6 +16,8 @@
 
 @import 'modules/link.css';
 
+@import 'modules/error-message.css';
+
 @import 'modules/sheer.css';
 /*
  * order matters; granular rules overrides predefined rules,

@@ -1,0 +1,10 @@
+:root {
+  --error-message-font-size: 13px;
+  --error-message-line-height: 18px;
+  --error-message-margin-top: 8px;
+  --error-message-background-color: var(--red);
+  --error-message-font-color: var(--white);
+  --error-message-padding: var(--default-padding);
+
+  --pointer-width: 4px;
+}
