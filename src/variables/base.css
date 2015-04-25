@@ -1,0 +1,26 @@
+:root {
+  /* base */
+  --base-font-color: #101010;
+  --base-font-weight: 300;
+  --base-font-size: 16px;
+  --base-background-color: #f8f8f8;
+
+  /* default */
+  --default-border-radius: 2px;
+  --default-border-color: #e5e5e5;
+  --default-border: 1px solid var(--default-border-color);
+
+  --default-error-color: #dd1037;
+
+  --default-focus-highlight-color: #198fff;
+  --default-focus-highlight-border: 1px solid var(--default-focus-highlight-color);
+
+  --default-padding: 12px;
+
+  --default-link-font-color: #198fff;
+}
+
+@custom-media --sm-device (width <= 568px);
+@custom-media --md-device (width <= 768px);
+@custom-media --lg-device (width <= 1024px);
+@custom-media --xl-device (width <= 1280px);

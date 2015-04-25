@@ -1,0 +1,26 @@
+/*!
+ * fighting the Space Between Inline Block Elements
+ * https://css-tricks.com/fighting-the-space-between-inline-block-elements/
+ */
+.row {
+  font-size: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*!
+ * inline-block is used as fallback to flex for grid alignment
+ * by setting the body direction to 'ltr' or 'rtl',
+ * will make the inline-blocks to respect the same
+ * no seperate rtl specific css is required for the grid layout.
+ ***************************************************************
+ * however absolute or fixed position used some where else
+ * a seperate rtl specific css will be required.
+ */
+.col {
+  display: inline-block;
+  flex: none;
+  font-size: var(--base-font-size);
+  position: relative;
+}
