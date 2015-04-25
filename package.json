@@ -10,5 +10,25 @@
     "sheer, customizable, extendable, css framework"
   ],
   "author": "Sarbbottam Bandyopadhyay",
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.8",
+    "grunt": "~0.4.2",
+    "grunt-banner": "^0.3.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-postcss": "^0.3.0",
+    "grunt-rtlcss": "^1.6.0",
+    "load-grunt-tasks": "~0.2.0",
+    "postcss": "^4.1.4",
+    "postcss-calc": "^4.0.1",
+    "postcss-custom-media": "^3.0.0",
+    "postcss-custom-properties": "^3.3.0",
+    "postcss-discard-comments": "^1.1.1",
+    "postcss-import": "^5.1.1",
+    "postcss-media-minmax": "^1.1.0",
+    "postcss-mixins": "^0.1.1",
+    "postcss-nested": "^0.2.2"
+  },
   "license": "MIT"
 }
