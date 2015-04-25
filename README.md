@@ -20,3 +20,42 @@ Not really, Sheer is completely configurable and driven by variables. One can ov
 Hmm, does that imply, one has to hand code CSS?
 ---
 May be. Sheer provides basic modular CSS, which might not address all the use case. One might have to hand code as per the need, and generate the combined CSS.
+
+Usage:
+---
+
+```sh
+mkdir my-awesome-app; cd $_
+npm install sarbbottam/sheer
+```
+
+And create the following file structure at minimum
+
+```sh
+.
+|____Gruntfile.js # refer the project's Gruntfile.js
+|____package.json # refer the project's package.json
+|____src
+| |____main.css # refer refer the project's main.css
+| |____modules
+| | |_____module.css
+| |____variables
+| | |_____variables.css
+```
+
+Install dependencies
+---
+```
+npm install
+```
+Please install [grunt-cli](http://gruntjs.com/getting-started#installing-the-cli) globally, if not already installed.
+
+Generate CSS
+---
+
+```
+grunt
+```
+
+Any customization required, needs be carried out at ``src/modules/module.css`` and ``src/variables/variable.css``.
+Should one need to create mutiple files at ``src/modules/`` and/or ``src/variables/``, they need to be included at ``src/main.css``.
