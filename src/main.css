@@ -16,6 +16,7 @@
 
 @import 'modules/link.css';
 
+@import 'modules/sheer.css';
 /*
  * order matters; granular rules overrides predefined rules,
  * thus granular rules need to be loaded at the last
