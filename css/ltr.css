@@ -379,6 +379,12 @@ textarea{
   position:absolute;
   top:-8px;
 }
+.equal-spaced{
+  font-family:monospace;
+  letter-spacing:4px;
+  padding-left:4px;
+  padding-right:0;
+}
 
 .container{
   padding:20px;
