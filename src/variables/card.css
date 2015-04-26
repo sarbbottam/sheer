@@ -1,0 +1,5 @@
+:root {
+  --card-padding: var(--default-padding);
+  --card-box-shadow-color: #d5d5d5;
+  --card-background-color: #fff;
+}

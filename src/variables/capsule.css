@@ -1,0 +1,4 @@
+:root {
+  --capsule-padding: var(--default-padding);
+  --capsule-font-size: var(--base-font-size);
+}

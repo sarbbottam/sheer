@@ -19,6 +19,9 @@
 @import 'modules/error-message.css';
 @import 'modules/equal-spaced.css';
 
+@import 'modules/capsule.css';
+@import 'modules/card.css';
+
 @import 'modules/sheer.css';
 /*
  * order matters; granular rules overrides predefined rules,

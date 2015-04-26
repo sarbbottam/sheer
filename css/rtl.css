@@ -386,6 +386,19 @@ textarea{
   padding-left:0;
 }
 
+.capsule{
+  display:inline-block;
+  border-radius:20px;
+  line-height:16px;
+  padding:12px;
+}
+.card{
+  background-color:#fff;
+  box-shadow:-2px 2px 2px #d5d5d5,
+              2px 2px 2px #d5d5d5;
+  padding:12px;
+}
+
 .container{
   padding:20px;
 }
