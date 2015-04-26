@@ -106,6 +106,11 @@ button{
   overflow:visible;
 }
 
+button,
+[type=button]{
+  cursor:pointer;
+}
+
 /*!
  * firefox add's 2px padding in a submit button
  * http://stackoverflow.com/questions/12288175/firefox-adds-2px-padding-in-a-submit-button#answer-12573301
@@ -280,7 +285,6 @@ textarea{
   background:100%;
   border:1px solid transparent;
   border-radius:2px;
-  cursor:pointer;
   font-family:inherit;
   font-size:18px;
   height:44px;

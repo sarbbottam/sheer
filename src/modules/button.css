@@ -3,7 +3,6 @@
   background: 0;
   border: 1px solid transparent;
   border-radius: var(--button-border-radius);
-  cursor: pointer;
   font-family: inherit;
   font-size: var(--button-font-size);
   height: var(--button-height);
