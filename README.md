@@ -26,7 +26,7 @@ Usage:
 
 ```sh
 mkdir my-awesome-app; cd $_
-npm install sarbbottam/sheer
+npm install sheer
 ```
 
 And create the following file structure at minimum
