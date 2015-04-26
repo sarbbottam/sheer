@@ -25,8 +25,8 @@ Usage:
 ---
 
 ```sh
-mkdir my-awesome-app; cd $_
-npm install sheer
+$ mkdir my-awesome-app; cd $_
+$ npm install sheer
 ```
 
 And create the following file structure at minimum
@@ -46,7 +46,7 @@ And create the following file structure at minimum
 Install dependencies
 ---
 ```
-npm install
+$ npm install
 ```
 
 Generate CSS
