@@ -48,14 +48,16 @@ Install dependencies
 ```
 npm install
 ```
-Please install [grunt-cli](http://gruntjs.com/getting-started#installing-the-cli) globally, if not already installed.
 
 Generate CSS
 ---
 
-```
-grunt
-```
+[Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.com/) can be used to generate CSS.
+Please install [grunt-cli](http://gruntjs.com/getting-started#installing-the-cli) or [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#1-install-gulp-globally) globally, if not already installed.
+
+Execute the desired task runner.
+
+`$ grunt` or `$ gulp`
 
 Any customization required, needs be carried out at ``src/modules/module.css`` and ``src/variables/variable.css``.
 Should one need to create mutiple files at ``src/modules/`` and/or ``src/variables/``, they need to be included at ``src/main.css``.
