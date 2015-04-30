@@ -107,7 +107,9 @@ button{
 }
 
 button,
-[type=button]{
+[type=button],
+[type=submit],
+[type=reset],{
   cursor:pointer;
 }
 
