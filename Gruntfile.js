@@ -46,7 +46,7 @@ module.exports = function(grunt) {
           require('postcss-calc')(),
           require('postcss-media-minmax')(),
           require('postcss-custom-media')(),
-          require('autoprefixer-core')({browsers: 'last 3 version'}).postcss
+          require('autoprefixer-core')({browsers: 'last 3 version'})
         ]
       },
       compile: {
