@@ -66,7 +66,7 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      scss: {
+      css: {
         files: ['src/**/*.css'],
         tasks: ['clean', 'postcss', 'rtlcss', 'usebanner']
       }
