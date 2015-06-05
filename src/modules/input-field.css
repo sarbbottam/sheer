@@ -3,6 +3,8 @@
   border-radius: var(--input-field-border-radius);
   color: var(--input-field-font-color);
   height: var(--input-field-height);
+  font-size: var(--input-field-font-size);
+  line-height: var(--input-field-line-height);
   padding: var(--input-field-padding);
   width: 100%;
 

@@ -1,8 +1,10 @@
 :root {
   --input-field-font-color: #101010;
+  --input-field-font-size: 18px;
   --input-field-border: var(--default-border);
   --input-field-border-radius: var(--default-border-radius);
   --input-field-height: 44px;
+  --input-field-line-height: 22px;
   --input-field-padding: var(--default-padding);
   --input-field-disabled-font-color: var(--input-field-font-color);
   --input-field-disabled-background-color: #e6e7e8;

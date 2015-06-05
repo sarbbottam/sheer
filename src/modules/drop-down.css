@@ -5,6 +5,8 @@
   border-radius: var(--drop-down-border-radius);
   color: var(--drop-down-font-color);
   height: var(--drop-down-height);
+  font-size: var(--drop-down-font-size);
+  line-height: var(--drop-down-line-height);
   padding: var(--drop-down-padding);
   width: 100%;
 }

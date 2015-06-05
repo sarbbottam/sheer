@@ -109,7 +109,7 @@ button{
 button,
 [type=button],
 [type=submit],
-[type=reset],{
+[type=reset]{
   cursor:pointer;
 }
 
@@ -260,6 +260,8 @@ textarea{
   border-radius:2px;
   color:#101010;
   height:44px;
+  font-size:18px;
+  line-height:22px;
   padding:12px;
   width:100%
 }
@@ -352,6 +354,8 @@ textarea{
   border-radius:2px;
   color:#101010;
   height:44px;
+  font-size:18px;
+  line-height:22px;
   padding:10px;
   width:100%;
 }
