@@ -263,22 +263,22 @@ textarea{
   font-size:18px;
   line-height:22px;
   padding:12px;
-  width:100%
+  width:100%;
 }
 
-.input-field ::-webkit-input-placeholder{
+::-webkit-input-placeholder{
   color:#8f8f8f;
 }
 
-.input-field ::-moz-placeholder{
+::-moz-placeholder{
   color:#8f8f8f;
 }
 
-.input-field :-ms-input-placeholder{
+:-ms-input-placeholder{
   color:#8f8f8f;
 }
 
-.input-field ::placeholder{
+::placeholder{
   color:#8f8f8f;
 }
 .input-field[disabled]{

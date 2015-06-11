@@ -7,10 +7,10 @@
   line-height: var(--input-field-line-height);
   padding: var(--input-field-padding);
   width: 100%;
+}
 
-  ::placeholder {
-    color: var(--placeholder-color);
-  }
+::placeholder {
+  color: var(--placeholder-color);
 }
 
 /*
