@@ -85,7 +85,7 @@ strong {
 }
 
 button,
-input,
+input:not([type="radio"]):not([type="checkbox"]),
 optgroup,
 select,
 textarea {
