@@ -91,6 +91,14 @@ strong{
 }
 
 button,
+input,
+optgroup,
+select,
+textarea{
+  font:inherit;
+}
+
+button,
 input:not([type="radio"]):not([type="checkbox"]),
 optgroup,
 select,
@@ -98,7 +106,6 @@ textarea{
   -webkit-appearance:none;
   -moz-appearance:none;
   appearance:none;
-  font:inherit;
 }
 
 /*! address `overflow` set to `hidden` in IE 8/9/10/11. */

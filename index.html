@@ -139,7 +139,12 @@
           </div>
         </div>
         <div class="col col-1-2col-sm-1-2">
-          <input type="text" class="input-field equal-spaced" placeholder="__________" maxlength="10" style="width:142px">
+          <!--
+          width for the field should be maxlength * width of the font + maxlength + 1 * letter-spacing
+          in this case it would be
+          10 * 11 + (10 + 1) * 4 = 154px
+          -->
+          <input type="text" class="input-field equal-spaced" placeholder="__________" maxlength="10" style="width:154px">
         </div>
       </div>
       <div class="banner text-xl">
