@@ -25,6 +25,15 @@
   background: #efefef;
 }
 
+.modal-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 44px;
+  width: 44px;
+  padding: 0;
+}
+
 /* line height */
 .l-h-50px {
   line-height: 50px;

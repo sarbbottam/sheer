@@ -408,6 +408,41 @@ textarea{
               2px 2px 2px #d5d5d5;
   padding:12px;
 }
+.modal-visible{
+  overflow:hidden;
+}
+.modal{
+  background:rgba(0, 0, 0, .48);
+  position:fixed;
+  bottom:0;
+  right:0;
+  left:0;
+  top:0;
+  overflow-y:auto;
+  z-index:99;
+}
+
+.modal-content{
+  background-color:#fff;
+
+  position:relative;
+  right:50%;
+  margin-right:-150px;
+
+  width:300px;
+  padding:30px 20px;
+  border-radius:2px;
+  box-shadow:0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.modal-header{
+}
+
+.modal-body{
+}
+
+.modal-footer{
+}
 
 .container{
   padding:20px;
@@ -434,6 +469,15 @@ textarea{
 
 .header{
   background:#efefef;
+}
+
+.modal-close-button{
+  position:absolute;
+  top:0;
+  left:0;
+  height:44px;
+  width:44px;
+  padding:0;
 }
 .l-h-50px{
   line-height:50px;

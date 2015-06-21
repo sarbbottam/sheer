@@ -22,6 +22,8 @@
 @import 'modules/capsule.css';
 @import 'modules/card.css';
 
+@import 'modules/modal.css';
+
 @import 'modules/sheer.css';
 /*
  * order matters; granular rules overrides predefined rules,
