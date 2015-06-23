@@ -389,7 +389,7 @@ textarea{
 
 .error-message:before{
   border:4px solid transparent;
-  border-bottom:4px solid #ff4136;
+  border-bottom-color:#ff4136;
   content:'';
   left:50%;
   margin-left:-4px;
