@@ -115,5 +115,5 @@ Should there be need to create mutiple files at `src/modules/` and/or `src/varia
 
 ---
 
-Copyright (c) 2015, Sarbborram Bandyopadhyay. All rights reserved. Copyrights licensed under the MIT License.
+Copyright (c) 2015, Sarbbottam Bandyopadhyay. All rights reserved. Copyrights licensed under the MIT License.
 See the accompanying LICENSE file for terms.
