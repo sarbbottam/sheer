@@ -24,11 +24,10 @@
 
 @import 'modules/modal.css';
 
-@import 'modules/sheer.css';
+@import 'sheer/sheer.css';
 /*
  * order matters; granular rules overrides predefined rules,
  * thus granular rules need to be loaded at the last
 */
-@import 'modules/color.css';
 @import 'modules/text.css';
 @import 'modules/granular.css';
