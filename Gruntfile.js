@@ -28,12 +28,12 @@ module.exports = function(grunt) {
           linebreak: true || false
         },
         files: {
-          src: [ 'css/*.css' ]
+          src: [ 'dist/css/*.css' ]
         }
       }
     },
 
-    clean: ['css/*'],
+    clean: ['dist/css/*'],
 
     postcss: {
       options: {
@@ -53,21 +53,21 @@ module.exports = function(grunt) {
         options: {
           // ToDo
         },
-        src: 'src/main.css',
-        dest: 'css/ltr.css'
+        src: 'src/css/main.css',
+        dest: 'dist/css/ltr.css'
       }
     },
 
     rtlcss: {
       'default': {
-        dest: 'css/rtl.css',
-        src: ['css/ltr.css']
+        dest: 'dist/css/rtl.css',
+        src: ['dist/css/ltr.css']
       }
     },
 
     watch: {
       css: {
-        files: ['src/**/*.css'],
+        files: ['dist/src/**/*.css'],
         tasks: ['clean', 'postcss', 'rtlcss', 'cssmin', 'usebanner']
       }
     },
@@ -75,9 +75,9 @@ module.exports = function(grunt) {
     cssmin: {
       css: {
         expand: true,
-        cwd: 'css/',
+        cwd: 'dist/css/',
         src: ['*.css', '!*.min.css'],
-        dest: 'css/',
+        dest: 'dist/css/',
         ext: '.min.css'
       }
     }
