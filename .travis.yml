@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- stable
+script:
+- npm run build
+- npm run deploy
+env:
+  global:
+  - GH_REF: github.com/sarbbottam/sheer
+  - secure: Kiz7871fSJpdJv5ufJiWXcfI0xIdE7l4q+VIgHlMwIIatdl9QQhYV5PSOrwtG/t3I9elhGxyoT8Qv7kR6rcSDcrQsmNjwS4wSSb8LhPw15nAxUs3er4Ky2iT1MtZDtdPtsSDYkvHXpybu3gbBhgdxc7IDYI/8J1tWZaOsjYFVxs=
