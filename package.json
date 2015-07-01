@@ -9,18 +9,24 @@
   "keywords": [
     "sheer, customizable, extendable, css framework"
   ],
+  "scripts": {
+    "build": "./node_modules/.bin/grunt",
+    "deploy": "./script/deploy.sh"
+  },
   "author": "Sarbbottam Bandyopadhyay",
   "devDependencies": {
     "autoprefixer-core": "^5.1.8",
     "del": "^1.1.1",
     "grunt": "~0.4.2",
     "grunt-banner": "^0.3.1",
+    "grunt-cli": "^0.1.13",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-cssmin": "^0.12.2",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-postcss": "^0.3.0",
     "grunt-rtlcss": "^1.6.0",
     "gulp": "^3.8.11",
+    "gulp-cli": "^0.2.0",
     "gulp-header": "^1.2.2",
     "gulp-minify-css": "^1.1.0",
     "gulp-postcss": "^5.1.3",
