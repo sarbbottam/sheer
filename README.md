@@ -1,5 +1,7 @@
 ![sheer](https://github.com/sarbbottam/sheer/raw/master/logo/sheer-200x186.png)
 
+![build status](https://travis-ci.org/sarbbottam/sheer.svg?branch=master)
+
 What is Sheer?
 ---
 In short, Sheer is a customizable and extendable CSS framework.
