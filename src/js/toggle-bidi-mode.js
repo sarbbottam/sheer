@@ -5,8 +5,8 @@
  */
 
 var bidiModeCSS = {
-    ltr: 'css/ltr.css',
-    rtl: 'css/rtl.css'
+    ltr: 'dist/css/ltr.css',
+    rtl: 'dist/css/rtl.css'
   },
   tempBidiMode,
   currentBidiMode = 'ltr',
