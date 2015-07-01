@@ -15,6 +15,7 @@ test-results.xml
 
 # Generated files #
 ###################
+out
 dist
 example/main.js
 
