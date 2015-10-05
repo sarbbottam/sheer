@@ -1,4 +1,4 @@
-/*! http://meyerweb.com/eric/tools/css/reset/ */
+  /*! http://meyerweb.com/eric/tools/css/reset/ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -132,7 +132,7 @@ input::-moz-focus-inner {
 }
 
 select:focus,
-input:focus,
+input:not([type="radio"]):not([type="checkbox"]):focus,
 button:focus {
   border: var(--default-focus-highlight-border);
   outline: none;
