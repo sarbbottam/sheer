@@ -1,6 +1,3 @@
 .equal-spaced {
-  font-family: monospace;
-  letter-spacing: var(--letter-spacing);
-  padding-left: var(--letter-spacing);
-  padding-right: 0;
+  @mixin equal-spaced;
 }

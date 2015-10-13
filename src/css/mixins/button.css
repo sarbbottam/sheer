@@ -1,0 +1,78 @@
+/* normalize button */
+@define-mixin button {
+  background: 0;
+  border: 1px solid transparent;
+  border-radius: var(--button-border-radius);
+  font-family: inherit;
+  font-size: var(--button-font-size);
+  height: var(--button-height);
+  padding: 0 var(--button-padding);
+  display: inline-block;
+  line-height: calc(var(--button-height) - 2px);
+  text-align: center;
+  text-decoration: none;
+}
+
+/* primary button */
+@define-mixin button-primary {
+  background-color: var(--button-primary-enabled-background-color);
+  border: var(--button-primary-enabled-border);
+  color: var(--button-primary-enabled-font-color);
+
+  &[disabled] {
+    background-color: var(--button-primary-disabled-background-color);
+    border: var(--button-primary-disabled-border);
+    color: var(--button-primary-disabled-font-color);
+  }
+
+  &:active {
+    background-color: var(--button-primary-active-background-color);
+    border: var(--button-primary-active-border);
+    color: var(--button-primary-active-font-color);
+  }
+}
+
+/* secondary button */
+@define-mixin button-secondary {
+  background-color: var(--button-secondary-enabled-background-color);
+  border: var(--button-secondary-enabled-border);
+  color: var(--button-secondary-enabled-font-color);
+
+  &[disabled] {
+    background-color: var(--button-secondary-disabled-background-color);
+    border: var(--button-secondary-disabled-border);
+    color: var(--button-secondary-disabled-font-color);
+  }
+
+  &:active {
+    background-color: var(--button-secondary-active-background-color);
+    border: var(--button-secondary-active-border);
+    color: var(--button-secondary-active-font-color);
+  }
+}
+
+/* cancel button */
+@define-mixin button-cancel {
+  background-color: var(--button-cancel-enabled-background-color);
+  border: var(--button-cancel-enabled-border);
+  color: var(--button-cancel-enabled-font-color);
+
+  &[disabled] {
+    background-color: var(--button-cancel-disabled-background-color);
+    border: var(--button-cancel-disabled-border);
+    color: var(--button-cancel-disabled-font-color);
+  }
+
+  &:active {
+    background-color: var(--button-cancel-active-background-color);
+    border: var(--button-cancel-active-border);
+    color: var(--button-cancel-active-font-color);
+  }
+}
+
+/* button as link */
+@define-mixin button-link {
+  border: 0;
+  color: var(--button-link-font-color);
+  line-height: 1;
+}

@@ -1,4 +1,3 @@
 .link {
-  color: var(--default-link-font-color);
-  text-decoration: none;
+  @mixin link;
 }

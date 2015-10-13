@@ -1,8 +1,8 @@
 /* sheer variables */
 @import 'variables/variables.css';
 
-
-@import 'modules/mixin.css';
+/* sheer mixins */
+@import 'mixins/mixins.css';
 
 /* sheer modules */
 @import 'modules/standardize.css';

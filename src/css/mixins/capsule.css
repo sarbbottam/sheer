@@ -1,0 +1,6 @@
+@define-mixin capsule {
+  display: inline-block;
+  border-radius: calc((var(--capsule-padding) * 2 + var(--capsule-font-size))/2);
+  line-height: var(--base-font-size);
+  padding: var(--capsule-padding);
+}
