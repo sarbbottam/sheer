@@ -1,6 +1,6 @@
 ![sheer](https://github.com/sarbbottam/sheer/raw/master/logo/sheer-200x186.png)
 
-![build status](https://travis-ci.org/sarbbottam/sheer.svg?branch=master)
+[![build status](https://travis-ci.org/sarbbottam/sheer.svg?branch=master)](https://travis-ci.org/sarbbottam/sheer?branch=master)
 
 What is Sheer?
 ---
