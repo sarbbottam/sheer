@@ -27,13 +27,13 @@ May be. Sheer provides basic modular CSS, which might not address all the use ca
 Basic modules provided by Sheer
 ---
 
-* layout: [grid-core](https://github.com/sarbbottam/sheer/tree/master/src/modules/grid-core.css), [grid](https://github.com/sarbbottam/sheer/tree/master/src/modules/grid.css)
+* layout: [grid-core](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/grid-core.css), [grid](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/grid.css)
 
-* form fields: [input-field](https://github.com/sarbbottam/sheer/tree/master/src/modules/input-field.css), [drop-down](https://github.com/sarbbottam/sheer/tree/master/src/modules/drop-down.css), [button](https://github.com/sarbbottam/sheer/tree/master/src/modules/button.css), [link](https://github.com/sarbbottam/sheer/tree/master/src/modules/link.css), [error-message](https://github.com/sarbbottam/sheer/tree/master/src/modules/error-message.css)
+* form fields: [input-field](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/input-field.css), [drop-down](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/drop-down.css), [button](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/button.css), [link](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/link.css), [error-message](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/error-message.css)
 
-* granular: [text](https://github.com/sarbbottam/sheer/tree/master/src/modules/text.css), [granular](https://github.com/sarbbottam/sheer/tree/master/src/modules/granular.css)
+* granular: [text](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/text.css), [granular](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/granular.css)
 
-* extras: [capsule](https://github.com/sarbbottam/sheer/tree/master/src/modules/capsule.css), [card](https://github.com/sarbbottam/sheer/tree/master/src/modules/card.css), [equal-spaced](https://github.com/sarbbottam/sheer/tree/master/src/modules/equal-spaced.css)
+* extras: [capsule](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/capsule.css), [card](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/card.css), [equal-spaced](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/equal-spaced.css)
 
 ![](http://i.imgur.com/AWara5Z.png)
 
