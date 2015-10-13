@@ -1,3 +1,5 @@
+/* refer the corresponding mixin files under ../mixins/button.css */
+
 /* normalize button */
 .button {
   @mixin button;

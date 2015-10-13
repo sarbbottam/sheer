@@ -115,6 +115,13 @@ All the [Sheer](https://github.com/sarbbottam/sheer) variables currently in use 
 
 Should there be need to create mutiple files at `src/modules/` and/or `src/variables/`, they need to be included at `src/main.css`.
 
+### Customize selector names
+
+You can also customize the selctor names, for example, `.btn` instead of the default `.button` selector.
+
+Copy the content of [button.css](https://github.com/sarbbottam/sheer/blob/master/src/css/modules/button.css) to a file (`.css`), 
+and update the selctor name to `.btn` instead of `.button` and `import` the newly created file in the `main.css` instead of the existing `button.css`.
+
 ---
 
 Copyright (c) 2015, Sarbbottam Bandyopadhyay. All rights reserved. Copyrights licensed under the MIT License.
