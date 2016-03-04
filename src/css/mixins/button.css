@@ -1,5 +1,5 @@
 /* normalize button */
-.button {
+@define-mixin button {
   background: 0;
   border: 1px solid transparent;
   border-radius: var(--button-border-radius);
@@ -14,7 +14,7 @@
 }
 
 /* primary button */
-.button-primary {
+@define-mixin button-primary {
   background-color: var(--button-primary-enabled-background-color);
   border: var(--button-primary-enabled-border);
   color: var(--button-primary-enabled-font-color);
@@ -33,7 +33,7 @@
 }
 
 /* secondary button */
-.button-secondary {
+@define-mixin button-secondary {
   background-color: var(--button-secondary-enabled-background-color);
   border: var(--button-secondary-enabled-border);
   color: var(--button-secondary-enabled-font-color);
@@ -52,7 +52,7 @@
 }
 
 /* cancel button */
-.button-cancel {
+@define-mixin button-cancel {
   background-color: var(--button-cancel-enabled-background-color);
   border: var(--button-cancel-enabled-border);
   color: var(--button-cancel-enabled-font-color);
@@ -71,7 +71,7 @@
 }
 
 /* button as link */
-.button-link {
+@define-mixin button-link {
   border: 0;
   color: var(--button-link-font-color);
   line-height: 1;

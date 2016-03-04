@@ -8,6 +8,17 @@
 ehthumbs.db
 Thumbs.db
 
+# Test #
+########
+coverage
+test-results.xml
+
+# Generated files #
+###################
+out
+dist
+example/main.js
+
 # Node #
 ########
 node_modules

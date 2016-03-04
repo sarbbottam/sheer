@@ -1,15 +1,18 @@
-.drop-down {
+@define-mixin drop-down {
   /* todo: update the background; */
   background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-128.png') #fff 98% 50%/16px 16px no-repeat;
   border: var(--drop-down-border);
   border-radius: var(--drop-down-border-radius);
   color: var(--drop-down-font-color);
   height: var(--drop-down-height);
+  font-size: var(--drop-down-font-size);
+  line-height: var(--drop-down-line-height);
   padding: var(--drop-down-padding);
   width: 100%;
-}
 
-.drop-down[disabled] {
-  background-color: var(--drop-down-disabled-background-color);
-  -webkit-text-fill-color: var(--drop-down-disabled-font-color);
+  &[disabled] {
+    background-color: var(--drop-down-disabled-background-color);
+    -webkit-text-fill-color: var(--drop-down-disabled-font-color);
+  }
+
 }

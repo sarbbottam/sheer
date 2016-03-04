@@ -1,0 +1,9 @@
+/* refer the corresponding mixin files under ../mixins/input-field.css */
+
+.input-field {
+  @mixin input-field;
+}
+
+::placeholder {
+  color: var(--placeholder-color);
+}

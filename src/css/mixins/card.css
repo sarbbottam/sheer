@@ -1,4 +1,4 @@
-.card {
+@define-mixin card {
   background-color: var(--card-background-color);
   box-shadow: 2px 2px 2px var(--card-box-shadow-color),
               -2px 2px 2px var(--card-box-shadow-color);

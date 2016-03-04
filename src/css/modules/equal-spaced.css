@@ -1,0 +1,5 @@
+/* refer the corresponding mixin files under ../mixins/equal-spaced.css */
+
+.equal-spaced {
+  @mixin equal-spaced;
+}

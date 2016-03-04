@@ -1,0 +1,26 @@
+/* refer the corresponding mixin files under ../mixins/button.css */
+
+/* normalize button */
+.button {
+  @mixin button;
+}
+
+/* primary button */
+.button-primary {
+  @mixin button-primary;
+}
+
+/* secondary button */
+.button-secondary {
+  @mixin button-secondary;
+}
+
+/* cancel button */
+.button-cancel {
+  @mixin button-cancel;
+}
+
+/* button as link */
+.button-link {
+  @mixin button-link;
+}

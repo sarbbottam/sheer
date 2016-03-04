@@ -2,7 +2,7 @@
  * fighting the Space Between Inline Block Elements
  * https://css-tricks.com/fighting-the-space-between-inline-block-elements/
  */
-.row {
+@define-mixin row {
   font-size: 0;
   display: flex;
   flex-direction: row;
@@ -18,7 +18,7 @@
  * however absolute or fixed position used some where else
  * a seperate rtl specific css will be required.
  */
-.col {
+@define-mixin col {
   display: inline-block;
   flex: none;
   font-size: var(--base-font-size);

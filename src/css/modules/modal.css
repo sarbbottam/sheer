@@ -1,0 +1,69 @@
+/*
+ * perform the following when
+ * **************************
+ * showing the modal
+ * --------------------------------------------
+ * add the modal-visible class to the body
+ * set aria-hidden=true to the main container
+ * set aria-hidden=false to modal
+ * focus the main actionable element of the modal
+ *
+ * when hiding the modal
+ * --------------------------------------------
+ * remove the modal-visible class from the body
+ * set aria-hidden=false to the main container
+ * set aria-hidden=true to modal
+ * focus the corresponding actionable element of the main container
+ */
+.modal-visible {
+  overflow: hidden;
+}
+
+/*
+ * use app specific styles to position the modal
+ * for vertically centered
+ * add p-a & v-a-m classes to the .modal-content node in html
+ * for aligning w.r.t. modal container
+ * add desired padding to .modal node in html
+ */
+.modal {
+  background: var(--modal-transparent-background);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow-y: auto;
+  z-index: 99;
+}
+
+.modal-content {
+  background-color: var(--modal-background-color);
+
+  position: relative;
+  left: 50%;
+  margin-left: -calc((var(--modal-width) / 2));
+
+  width: var(--modal-width);
+  padding: var(--modal-padding);
+  border-radius: var(--modal-border-radius);
+  box-shadow: var(--modal-box-shadow);
+}
+
+.modal-header {
+  /*
+   * placeholder for modal title and x button
+   */
+}
+
+.modal-body {
+  /*
+   * placeholder for modal content
+   */
+}
+
+.modal-footer {
+  /*
+   * placeholder for ok/cancel action buttons
+   */
+}

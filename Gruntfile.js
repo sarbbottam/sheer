@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015, Sarbborram Bandyopadhyay. All rights reserved.
+ * Copyright (c) 2015, Sarbbottam Bandyopadhyay. All rights reserved.
  * Copyrights licensed under the MIT License.
  * See the accompanying LICENSE file for terms.
  */
@@ -28,12 +28,12 @@ module.exports = function(grunt) {
           linebreak: true || false
         },
         files: {
-          src: [ 'css/*.css' ]
+          src: [ 'dist/css/*.css' ]
         }
       }
     },
 
-    clean: ['css/*'],
+    clean: ['dist/css/*'],
 
     postcss: {
       options: {
@@ -46,38 +46,38 @@ module.exports = function(grunt) {
           require('postcss-calc')(),
           require('postcss-media-minmax')(),
           require('postcss-custom-media')(),
-          require('autoprefixer-core')({browsers: 'last 3 version'}).postcss
+          require('autoprefixer-core')({browsers: 'last 3 version'})
         ]
       },
       compile: {
         options: {
           // ToDo
         },
-        src: 'src/main.css',
-        dest: 'css/ltr.css'
+        src: 'src/css/main.css',
+        dest: 'dist/css/ltr.css'
       }
     },
 
     rtlcss: {
       'default': {
-        dest: 'css/rtl.css',
-        src: ['css/ltr.css']
+        dest: 'dist/css/rtl.css',
+        src: ['dist/css/ltr.css']
       }
     },
 
     watch: {
-      scss: {
-        files: ['src/**/*.css'],
-        tasks: ['clean', 'postcss', 'rtlcss', 'usebanner']
+      css: {
+        files: ['dist/src/**/*.css'],
+        tasks: ['clean', 'postcss', 'rtlcss', 'cssmin', 'usebanner']
       }
     },
 
     cssmin: {
       css: {
         expand: true,
-        cwd: 'css/',
+        cwd: 'dist/css/',
         src: ['*.css', '!*.min.css'],
-        dest: 'css/',
+        dest: 'dist/css/',
         ext: '.min.css'
       }
     }

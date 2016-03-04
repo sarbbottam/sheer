@@ -16,7 +16,7 @@ var banner = ['/*',
 ].join('\n');
 
 gulp.task('clean', function () {
-  del(['css/*.css'], function (error, deletedFiles) {
+  del(['dist/css/*.css'], function (error, deletedFiles) {
     console.log('files deleted:', deletedFiles.join(', '));
   });
 });
@@ -31,32 +31,32 @@ gulp.task('postcss', function () {
     require('postcss-calc')(),
     require('postcss-media-minmax')(),
     require('postcss-custom-media')(),
-    require('autoprefixer-core')({browsers: 'last 3 version'}).postcss
+    require('autoprefixer-core')({browsers: 'last 3 version'})
   ];
-  return gulp.src('./src/main.css')
+  return gulp.src('./src/css/main.css')
     .pipe(postcss(processors))
     .pipe(rename('ltr.css'))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('rtlcss', ['postcss'], function () {
-  return gulp.src('./css/ltr.css')
+  return gulp.src('./dist/css/ltr.css')
   .pipe(rtlcss())
   .pipe(rename('rtl.css'))
-  .pipe(gulp.dest('./css/'));
+  .pipe(gulp.dest('./dist/css/'));
 });
 
 gulp.task('cssmin', ['postcss', 'rtlcss'], function() {
-  return gulp.src('css/*.css')
+  return gulp.src('./dist/css/*.css')
     .pipe(cssmin())
     .pipe(rename({suffix: '.min', extname: '.css'}))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('banner', ['postcss', 'rtlcss', 'cssmin'], function () {
-  return gulp.src('./css/*.css')
+  return gulp.src('./dist/css/*.css')
   .pipe(header(banner, { pkg : pkg } ))
-  .pipe(gulp.dest('./css/'));
+  .pipe(gulp.dest('./dist/css/'));
 });
 
 gulp.task('watch', function() {

@@ -1,4 +1,4 @@
-.link {
+@define-mixin link {
   color: var(--default-link-font-color);
   text-decoration: none;
 }

@@ -1,4 +1,4 @@
-.error-message {
+@define-mixin error-message {
   background-color: var(--error-message-background-color);
   color: var(--error-message-font-color);
   font-size: var(--error-message-font-size);
@@ -9,7 +9,7 @@
 
   &:before {
     border: var(--pointer-width) solid transparent;
-    border-bottom: var(--pointer-width) solid var(--error-message-background-color);
+    border-bottom-color: var(--error-message-background-color);
     content: '';
     left: 50%;
     margin-left: -var(--pointer-width);

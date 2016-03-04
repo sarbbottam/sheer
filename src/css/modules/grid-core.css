@@ -1,0 +1,22 @@
+/* refer the corresponding mixin files under ../mixins/grid-core.css */
+
+/*!
+ * fighting the Space Between Inline Block Elements
+ * https://css-tricks.com/fighting-the-space-between-inline-block-elements/
+ */
+.row {
+  @mixin row;
+}
+
+/*!
+ * inline-block is used as fallback to flex for grid alignment
+ * by setting the body direction to 'ltr' or 'rtl',
+ * will make the inline-blocks to respect the same
+ * no seperate rtl specific css is required for the grid layout.
+ ***************************************************************
+ * however absolute or fixed position used some where else
+ * a seperate rtl specific css will be required.
+ */
+.col {
+  @mixin col;
+}

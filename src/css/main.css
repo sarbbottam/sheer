@@ -1,8 +1,8 @@
 /* sheer variables */
 @import 'variables/variables.css';
 
-
-@import 'modules/mixin.css';
+/* sheer mixins */
+@import 'mixins/mixins.css';
 
 /* sheer modules */
 @import 'modules/standardize.css';
@@ -22,11 +22,12 @@
 @import 'modules/capsule.css';
 @import 'modules/card.css';
 
-@import 'modules/sheer.css';
+@import 'modules/modal.css';
+
+@import 'sheer/sheer.css';
 /*
  * order matters; granular rules overrides predefined rules,
  * thus granular rules need to be loaded at the last
 */
-@import 'modules/color.css';
 @import 'modules/text.css';
 @import 'modules/granular.css';

@@ -1,0 +1,5 @@
+/* refer the corresponding mixin files under ../mixins/card.css */
+
+.card {
+  @mixin card;
+}

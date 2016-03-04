@@ -1,0 +1,5 @@
+/* refer the corresponding mixin files under ../mixins/drop-down.css */
+
+.drop-down {
+  @mixin drop-down;
+}

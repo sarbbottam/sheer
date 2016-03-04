@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Index</title>
-    <link rel="stylesheet" href="css/ltr.css">
+    <link rel="stylesheet" href="dist/css/ltr.css">
   </head>
   <body>
     <div class="text-sm header">
@@ -109,7 +109,7 @@
         <div class="col col-1-4 col-sm-1-4">
           <select class="drop-down">
             <option>Please choose</option>
-            <option>Lorem Ipsum</option>
+            <option>Afganistan</option>
           </select>
         </div>
         <div class="col col-1-4 col-sm-1-4">
@@ -139,7 +139,12 @@
           </div>
         </div>
         <div class="col col-1-2col-sm-1-2">
-          <input type="text" class="input-field equal-spaced" placeholder="__________" maxlength="10" style="width:142px">
+          <!--
+          width for the field should be maxlength * width of the font + maxlength + 1 * letter-spacing
+          in this case it would be
+          10 * 11 + (10 + 1) * 4 = 154px
+          -->
+          <input type="text" class="input-field equal-spaced" placeholder="__________" maxlength="10" style="width:154px">
         </div>
       </div>
       <div class="banner text-xl">
@@ -157,11 +162,33 @@
           </div>
         </div>
       </div>
+      <div class="banner text-xl">
+        Modal
+      </div>
+      <div class="row m-b-10px">
+        <div class="col col-1-1">
+          <input id="show-modal" type="button" value="Show modal" class="button button-link h-a w-a p-0">
+        </div>
+      </div>
+    </div>
+    <div class="modal hide">
+      <div class="modal-content p-a v-a-m">
+        <div class="modal-header">
+          <h1 class="text-lg"> Lorem ipsum</h1>
+          <input id="hide-modal" class="button modal-close-button" type="button" value="X" aria-label="close">
+        </div>
+        <div class="modal-body m-t-12px">
+          Lorem ipsum dolor sit amet, vidit reque et usu, est te enim discere efficiantur. Id mei legere fabellas necessitatibus. Quod dolores maiestatis mea no, consul senserit in pro, omnis facilisi interpretaris quo et. Liber tollit noster quo no.
+
+          Vis ferri invidunt no, melius feugiat delicatissimi ea eum. Ius modus perfecto eu, ei malis etiam detraxit vel. Porro dignissim no vix, voluptua consequat ad vis. Eum nostro maiorum ut, mel in dicat debet. Ea brute posse epicurei vis, ne pri graeco integre.
+        </div>
+      </div>
     </div>
     <div class="text-sm p-f footer">
       Developed with &#x2661; and
       <a href="https://github.com/sarbbottam/sheer" class="link">Sheer</a>
     </div>
-    <script src="js/toggle-bidi-mode.js"></script>
+    <script src="src/js/toggle-bidi-mode.js"></script>
+    <script src="src/js/modal.js"></script>
   </body>
 </html>

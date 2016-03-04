@@ -1,8 +1,10 @@
 :root {
   --drop-down-font-color: #101010;
+  --drop-down-font-size: 18px;
   --drop-down-border: var(--default-border);
   --drop-down-border-radius: var(--default-border-radius);
   --drop-down-height: 44px;
+  --drop-down-line-height: 22px;
   --drop-down-padding: 10px;
   --drop-down-disabled-font-color: var(--drop-down-font-color);
   --drop-down-disabled-background-color: #e6e7e8;

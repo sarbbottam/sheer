@@ -1,0 +1,8 @@
+:root {
+  --modal-transparent-background: rgba(0, 0, 0, .48);
+  --modal-background-color: #fff;
+  --modal-padding: 30px 20px;
+  --modal-border-radius: var(--default-border-radius);
+  --modal-width: 300px;
+  --modal-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
