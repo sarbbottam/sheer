@@ -1,0 +1,18 @@
+{
+    "use": [
+      "postcss-import",
+      "postcss-discard-comments",
+      "postcss-custom-properties",
+      "postcss-mixins",
+      "postcss-nested",
+      "postcss-calc",
+      "postcss-media-minmax",
+      "postcss-custom-media",
+      "autoprefixer"
+     ],
+    "input": "src/css/main.css",
+    "output": "dist/css/ltr.css",
+    "autoprefixer": {
+        "browsers": "last 3 version"
+    }
+}
