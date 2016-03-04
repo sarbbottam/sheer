@@ -31,7 +31,7 @@ gulp.task('postcss', function () {
     require('postcss-calc')(),
     require('postcss-media-minmax')(),
     require('postcss-custom-media')(),
-    require('autoprefixer-core')({browsers: 'last 3 version'})
+    require('autoprefixer')({browsers: 'last 3 version'})
   ];
   return gulp.src('./src/css/main.css')
     .pipe(postcss(processors))
