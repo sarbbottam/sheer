@@ -1,4 +1,4 @@
-/*!
+/*
  * fighting the Space Between Inline Block Elements
  * https://css-tricks.com/fighting-the-space-between-inline-block-elements/
  */
@@ -9,7 +9,7 @@
   flex-wrap: wrap;
 }
 
-/*!
+/*
  * inline-block is used as fallback to flex for grid alignment
  * by setting the body direction to 'ltr' or 'rtl',
  * will make the inline-blocks to respect the same
