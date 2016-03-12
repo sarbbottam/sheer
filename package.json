@@ -13,8 +13,8 @@
     "setup": "rm -rf dist; mkdir -p dist/css",
     "postcss": "postcss -c config/postcss.json",
     "rtlcss": "rtlcss ./dist/css/ltr.css ./dist/css/rtl.css",
-    "cssnano-ltr": "cssnano dist/css/ltr.css dist/css/ltr.min.css",
-    "cssnano-rtl": "cssnano dist/css/rtl.css dist/css/rtl.min.css",
+    "cssnano-ltr": "cssnano dist/css/ltr.css dist/css/ltr.min.css --discardComments.removeAll",
+    "cssnano-rtl": "cssnano dist/css/rtl.css dist/css/rtl.min.css --discardComments.removeAll",
     "cssnano": "npm run cssnano-ltr && npm run cssnano-rtl",
     "build": "npm run setup && npm run postcss && npm run rtlcss && npm run cssnano",
     "deploy": "./script/deploy.sh"
