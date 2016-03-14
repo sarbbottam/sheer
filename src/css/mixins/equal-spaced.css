@@ -1,6 +1,8 @@
 @define-mixin equal-spaced {
   font-family: monospace;
   letter-spacing: var(--letter-spacing);
+  /*!rtl:begin:ignore*/
   padding-left: var(--letter-spacing);
   padding-right: 0;
+  /*!rtl:end:ignore*/
 }
