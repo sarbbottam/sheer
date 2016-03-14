@@ -41,6 +41,7 @@ module.exports = function(grunt) {
           require('postcss-import')(),
           require('postcss-discard-comments'),
           require('postcss-custom-properties')(),
+          require('postcss-inline-svg'),
           require('postcss-mixins')(),
           require('postcss-nested'),
           require('postcss-calc')(),

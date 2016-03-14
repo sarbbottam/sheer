@@ -3,6 +3,7 @@
       "postcss-import",
       "postcss-discard-comments",
       "postcss-custom-properties",
+      "postcss-inline-svg",
       "postcss-mixins",
       "postcss-nested",
       "postcss-calc",
