@@ -15,15 +15,12 @@ var bidiModeCSS = {
 
 if(toggleBidiMode) {
   toggleBidiMode.addEventListener('click', function(){
-    var existingStyleNode, newStyleNode;
+    var styleNode;
 
     tempBidiMode = nextBidiMode;
     nextBidiMode = currentBidiMode;
     currentBidiMode = tempBidiMode;
-    existingStyleNode = document.head.getElementsByTagName('link')[0],
-    newStyleNode = document.createElement('link');
-    newStyleNode.setAttribute('rel', 'stylesheet');
-    newStyleNode.setAttribute('href', bidiModeCSS[currentBidiMode]);
-    document.head.appendChild(newStyleNode);
+    styleNode = document.head.getElementsByTagName('link')[0],
+    styleNode.setAttribute('href', bidiModeCSS[currentBidiMode]);
   });
 }
