@@ -1,6 +1,8 @@
 @define-mixin drop-down {
   /* todo: update the background; */
-  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-128.png') #fff 98% 50%/16px 16px no-repeat;
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-128.png') #fff no-repeat;
+  background-size: 16px 16px;
+  background-position: 98% 50%;
   border: var(--drop-down-border);
   border-radius: var(--drop-down-border-radius);
   color: var(--drop-down-font-color);
