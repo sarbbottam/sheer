@@ -133,7 +133,8 @@ input::-moz-focus-inner {
 
 select:focus,
 input:not([type="radio"]):not([type="checkbox"]):focus,
-button:focus {
+button:focus,
+a:focus {
   border: var(--default-focus-highlight-border);
   outline: none;
 }

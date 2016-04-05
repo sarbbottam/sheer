@@ -1,4 +1,7 @@
 @define-mixin link {
+  border: 1px solid transparent;
+  border-radius: var(--default-border-radius);
   color: var(--default-link-font-color);
   text-decoration: none;
+  line-height: 1;
 }

@@ -19,8 +19,3 @@
 .button-cancel {
   @mixin button-cancel;
 }
-
-/* button as link */
-.button-link {
-  @mixin button-link;
-}

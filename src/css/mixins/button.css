@@ -72,7 +72,5 @@
 
 /* button as link */
 @define-mixin button-link {
-  border: 0;
-  color: var(--button-link-font-color);
   line-height: 1;
 }
